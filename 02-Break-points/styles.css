@@ -1,0 +1,81 @@
+
+/* Estilos para moviles pequeños*/
+body{
+    font-family: sans-serif;
+    background: #020024;
+background: linear-gradient(90deg, rgb(68, 212, 231) 0%, rgb(112, 59, 255) 35%, rgb(0, 208, 250) 100%);
+}
+
+/* Móviles medianos y grnades con min-width de 480px */
+
+@media screen and (min-width: 480px){
+    body{
+        background-color: rgb(7, 1, 23);
+    }
+}
+
+/* Tablets con min-width: 768px */
+
+@media screen and (min-width: 768px){
+    body{
+        background-color: rgb(1, 23, 19);
+    }
+}
+
+/* Escritorio con min-width: 1024px */
+
+@media screen and (min-width: 1024px){
+    body{
+        background-color: rgb(23, 1, 21);
+    }
+}
+
+/* Pantallas grandes con min-width: 1280 */
+
+@media screen and (min-width: 1280px){
+    body{
+        background-color: rgb(23, 10, 1);
+    }
+}
+
+
+h1{
+    font-size: 5rem;
+    color: aliceblue;
+}
+
+
+/* Escritorio con max-width:1279px*/
+@media screen and (max-width: 1279px){
+    h1{
+        font-size: 2rem;
+        color: blueviolet;
+    }
+}
+/* Tabletas con max-width 1023*/
+
+@media screen and (max-width: 1023px){
+    h1{
+        font-size: 8rem;
+        color: blueviolet;
+    }
+}
+
+/* Moviles medianos y grandes con max-width:767px*/
+
+
+@media screen and (max-width: 767px){
+    h1{
+        font-size: 2rem;
+        color: blueviolet;
+    }
+}
+
+/*Moviles de 479px de max width*/
+
+@media screen and (max-width: 479px){
+    h1{
+        font-size: 10rem;
+        color: blueviolet;
+    }
+}
